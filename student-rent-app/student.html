@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>🎓 Student Dashboard</h2>
+<a href="index.html">⬅ Back</a>
+
+<div class="card">
+  <h3>Student Verification</h3>
+  <input id="sName" placeholder="Full Name">
+  <input id="sCollege" placeholder="College Name">
+  <input id="sPhone" placeholder="Phone Number">
+  <input id="sYear" placeholder="Year">
+  <input id="sAge" placeholder="Age">
+  <input type="file" id="sDoc">
+</div>
+
+<div class="card">
+  <h3>Available Properties</h3>
+  <div id="propertyList"></div>
+</div>
+
+<div class="card">
+  <h3>👥 Student Groups Searching Flats</h3>
+  <input id="area" placeholder="Preferred Area">
+  <input id="needed" placeholder="Students Needed">
+  <button onclick="createStudentGroup()">Create Group</button>
+  <div id="studentGroups"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

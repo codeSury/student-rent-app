@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Owner Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>👤 Property Owner Dashboard</h2>
+<a href="index.html">⬅ Logout</a>
+
+<div class="card">
+  <h3>Owner Details</h3>
+  <input placeholder="Owner Name">
+  <input placeholder="Phone Number">
+  <input type="file">
+</div>
+
+<div class="card">
+  <h3>Add Property</h3>
+  <input id="title" placeholder="Property Title">
+  <input id="bhk" placeholder="BHK (2 / 3)">
+  <input id="rent" placeholder="Rent (₹)">
+  <input id="location" placeholder="Location">
+  <input id="students" placeholder="Max Students">
+  <button onclick="addProperty()">Add Property</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
